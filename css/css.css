@@ -1,0 +1,656 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1114px;
+    margin: 0 auto;
+   
+
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.w-100{
+    width: 100%;
+
+}
+
+.common-btn{
+    
+        padding: 20px 38px;
+        border: 2px solid #15a4fa;
+        background: transparent;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        
+        
+    
+}
+.common-btns{
+    
+    padding: 15px 50px;
+    border: 2px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    
+
+}
+a{
+    text-decoration: none !important;
+    display: inline-block;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+p{
+   font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+/* common css start */
+/* nav css start */
+
+.back_to_top{
+    width: 25px;
+    height: 25px;
+    background-color: #48baff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+
+.back_to_top a{
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.back_to_top.show{
+    opacity: 1;
+    visibility: visible;
+    bottom: 25px;
+
+}
+
+#navbar{
+    
+    padding: 40px 0;
+    background: #fff;
+    z-index: 999;
+
+    
+}
+
+#navbar.sticky{
+    position: fixed;
+    background-color: #48baff;
+    width: 100%;
+    top: -10px;
+   animation: sticky 2s linear;
+    
+}
+
+@keyframes sticky{
+    
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+.main-menu{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    
+}
+.main-menu .logo{
+   
+    
+    width: 162px;
+}
+.main-menu .menu{
+    
+    width: 955px;
+}
+
+.main-menu .menu ul{
+    display: inline-block;
+    padding-left: 43px;
+}
+.main-menu .menu ul li a{
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.main-menu .menu ul li a:hover{
+    color: #656057;
+}
+/* nav css end */
+
+/* banner part start */
+#banner{
+    background: url(./images/Strict.png);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 210px;
+   
+}
+.banner-info{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.banner-info h1{
+    color: #fff;
+    font-size: 120px;
+   
+   font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+.banner-info p{
+    padding-top: 38px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.banner-info p::before{
+    content: "";
+    height: 2px;
+    width: 600px;
+    background: #15a4fa;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.banner-info .icon{
+    padding-top: 400px;
+    padding-bottom: 150px;
+   
+}
+
+.banner-info .icon i{
+   color: #fff;
+   font-size: 25px;
+}
+
+
+/*banner part end  */
+/* ........................... */
+
+/*  design part start*/
+
+#design{
+
+
+   background-color: #f6f9f9;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 75px;
+   padding-bottom: 100px;
+
+
+}
+
+#design .design-container{
+    text-align: center;
+}
+
+#design .design-container h2{
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+#design .design-container p{
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+   
+}
+
+/* design part end */
+/* ........................... */
+
+
+
+/* service part start */
+
+#service{
+    background-color: #fff;
+    
+}
+
+.service-container .item{
+    padding: 95px 0;
+}
+
+.service-container .item .image{
+    height: 103px;
+    width: 103px;
+    background: linear-gradient(to right,#48baff 50%,#5fc3ff 50%);
+    text-align: center;
+    padding: 30px 25px;
+   
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-container .item .image{
+    margin: 0 auto;
+}
+.service-container .item .text{
+    text-align: center;
+}
+
+
+.service-container h2{
+
+color: #2d3950;
+font-family: 'Lato', sans-serif;
+font-size: 22px;
+font-weight: 400;
+padding-top: 31px;
+}
+
+
+.service-container p{
+    color: #999999;
+   font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 28px;
+   
+}
+
+
+.service-container .item:nth-child(1){
+    width: 265px;
+    
+}
+
+.service-container .item:nth-child(2){
+    width: 324px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.service-container .item:nth-child(3){
+    width: 324px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* service part end */
+/* ................................ */
+
+
+/* showcase part start */
+
+#showcase{
+    background-color: #f6f9f9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 78px;
+    padding-bottom: 108px;
+}
+
+.showcase-container .section-heading{
+    text-align: center;
+}
+.showcase-container .section-heading h3{
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+     font-size: 41px;
+     font-weight: 400;
+     padding-bottom: 25px;
+
+
+}
+.showcase-container .section-heading h5{
+    color: #909090;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 75px;
+
+
+
+
+}
+.showcase-item .item{
+    max-width: 360px;
+   
+}
+
+.showcase-item{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    row-gap: 28px;
+    position: relative;
+    
+}
+
+.showcase-item .item .image{
+    position: relative;
+}
+
+.showcase-item .item .image .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 162, 250, 0.91);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+.showcase-item .item:hover .image .overlay{
+    
+    opacity: 1;
+    visibility: visible;
+}
+
+.showcase-item .item .image .icon-one{
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 105px;
+    left: 126px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 10px;
+    visibility: hidden;
+    z-index: 99;
+}
+
+.showcase-item .item .image .icon-two{
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 105px;
+    left: 184px;
+    background-color: #15a4fa;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 10px;
+    visibility: hidden;
+    z-index: 99;
+}
+.showcase-item .item:hover .image .icon-one{
+    visibility: visible;
+}
+
+.showcase-item .item:hover .image .icon-two{
+    visibility: visible;
+}
+
+.showcase-container .showcase-item .item:nth-child(1){
+    margin-left: -25px;
+
+
+}
+
+.showcase-container .showcase-item .item:nth-child(4){
+    margin-left: -25px;
+
+
+}
+
+/* showcase part end part end  */
+/* ................................ */
+
+/* form part start */
+
+footer{
+
+    background: url(./images/Strict.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+footer .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(45, 57, 80, 0.90);
+    padding-top: 78px;
+    padding-bottom: 95px;
+}
+
+
+.footer-container .section-heading{
+    text-align: center;
+}
+.footer-container .section-heading h3{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+     font-size: 41px;
+     font-weight: 400;
+     padding-bottom: 28px;
+
+
+}
+.footer-container .section-heading h5{
+    color: #929294;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 51px;
+
+
+
+
+}
+.form{
+    width: 560px;
+   
+    margin: 0 auto;
+}
+.form .full-name input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: transparent;
+    border: 1px solid #999999;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+.form .full-name textarea{
+    width: 100%;
+    height: 163px;
+    padding: 10px;
+    margin: 10px 0;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+
+.footer-container .button{
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+
+
+/* form part end  */
+/* ................................ */
+
+
+
+/* copy write part start  */
+
+
+.copy-write{
+   display: flex;
+    padding: 35px 0;
+    justify-content: space-between;
+}
+.copy-write .left{
+    color: #cbcccc;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -10px;
+
+}
+.copy-write .right .icon{
+    width: 290px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+
+    
+}
+.copy-write .right .icon .item{
+    width: 40px;
+    height: 40px;
+    background-color: #15a4fa;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copy-write .right .icon .item i{
+    color: #fff;
+    
+}
+
+/* copy write part end  */
+
+
+/* ...................... */
+
+/* contact page start  */
+
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.contact-container .left {
+    width: 50%;
+    border-radius: 20px;
+   overflow: hidden;
+}
+.contact-container .right{
+    width: 50%;
+   background-color:#00A889;
+   border-radius: 16px;
+   padding: 50px;
+
+
+}
+.contact-container .right .input-item label{
+    display: block;
+    color: #000;
+    font-size: 22px;
+}
+
+
+.contact-container .right .input-item input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+   
+}
+.contact-container .right .input-item textarea{
+    width: 100%;
+    min-width: 150px;
+}
+.contact-container .right .input-item input:focus{
+   border:  none;
+   box-shadow: none;
+   outline: none;
+}
+
+.contact-container .right .button{
+    text-align: center;
+}
+.contact-container .right .button button{
+    background-color: #fff;
+    border: 1px solid #222;
+    color: #00A889;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact page end  */
+
+
